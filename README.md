@@ -83,5 +83,5 @@ Below is the high-level architecture of the system:
              |   + Medium: Automated Response      |
              |   + High: Manual Review             |
              |   + Critical: Immediate Escalation  |
-             | Tools: ELK Stack, StackStorm, Rundeck|
+             |Tools: ELK Stack, StackStorm, Rundeck|
              +-------------------------------------+
