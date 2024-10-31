@@ -29,11 +29,11 @@ Below is the high-level architecture of the system:
 +-------------------+       +---------------------+
              |                      |
              v                      v
-       +------------+        +-------------+
-       | Log Server |------->| Log Server  |
-       | (Storage)  |        | (Storage)   |
-       | Elasticsearch |      | Elasticsearch |
-       +------------+        +-------------+
+       +-------------+        +-------------+
+       | Log Server  |------->| Log Server  |
+       | (Storage)   |        | (Storage)   |
+       |Elasticsearch|        |Elasticsearch|
+       +------------*+        +-------------+
                 |                   |
                 v                   v
              +---------------------------+
