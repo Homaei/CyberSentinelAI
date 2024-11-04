@@ -23,7 +23,7 @@ Below is the high-level architecture of the system:
 
 ```plaintext
 
-[Download diagram.webp](./diagram.webp)
+![Architecture Diagram](./diagram.webp)
 
 
 +-------------------+       +---------------------+
