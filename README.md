@@ -8,20 +8,23 @@ The system leverages Zabbix and Wazuh for log collection, Elasticsearch for log 
 
 ## Components
 
-- **Zabbix**: Used for collecting logs related to network and server performance.
+- **Zabbix**: Used for collecting network and server performance logs.
 - **Wazuh**: Focuses on security monitoring, collecting logs from various endpoints.
 - **Elasticsearch**: Aggregates and stores logs from Zabbix and Wazuh.
-- **Logstash/Fluentd**: Used for preprocessing logs including normalization and noise reduction.
+- **Logstash/Fluentd**: Used for preprocessing logs, including normalization and noise reduction.
 - **TensorFlow/PyTorch**: Frameworks for training the machine learning model to detect anomalies.
 - **Docker/Kubernetes**: For deploying the system components in a scalable and manageable way.
 - **ELK Stack**: Used for real-time monitoring and visualization.
-- **StackStorm/Rundeck**: Automation tools for handling alerts and responses based on their severity.
+- **StackStorm/Rundeck**: Automation tools for handling alerts and responses based on severity.
 
 ## Architecture
 
 Below is the high-level architecture of the system:
 
 ```plaintext
+
+
+
 +-------------------+       +---------------------+
 |      Zabbix       |       |       Wazuh         |
 |   Log Collector   |------>|   Log Collector     |
