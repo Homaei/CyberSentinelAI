@@ -102,7 +102,7 @@ Below is the high-level architecture of the system:
 ```
 ## Contributors
 
-- [Hubert Homaei](https://github.com/homaei), [Oscar Mogollon](https://github.com/omogollo2), [Aagustin di Bartolo].
+- [Hubert Homaei](https://github.com/homaei), [Oscar Mogollon](https://github.com/omogollo2), [Aagustin di Bartolo](https://github.com/Jacklamotta).
   
 ## License
 
