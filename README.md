@@ -23,6 +23,7 @@ Below is the high-level architecture of the system:
 
 ```plaintext
 
+[Download sample.web](./diagram.web)
 
 
 +-------------------+       +---------------------+
