@@ -92,4 +92,10 @@ Below is the high-level architecture of the system:
              |Tools: ELK Stack, StackStorm, Rundeck|
              +-------------------------------------+
 ```
+## Contributors
 
+- [Hubert Homaei](https://github.com/homaei), [Oscar Mogollon](https://github.com/omogollo2), [Aagustin di Bartolo].
+  
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
