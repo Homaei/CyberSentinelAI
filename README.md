@@ -21,9 +21,11 @@ The system leverages Zabbix and Wazuh for log collection, Elasticsearch for log 
 
 Below is the high-level architecture of the system:
 
-```plaintext
 
 ![Architecture Diagram](./diagram.webp)
+
+```plaintext
+
 
 
 +-------------------+       +---------------------+
