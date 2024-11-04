@@ -17,10 +17,18 @@ The system leverages Zabbix and Wazuh for log collection, Elasticsearch for log 
 - **ELK Stack**: Used for real-time monitoring and visualization.
 - **StackStorm/Rundeck**: Automation tools for handling alerts and responses based on severity.
 
+
+## LLM/AI stages:
+- **Feature Extraction**: Collect and preprocess data from network devices via Zabbix proxies, organizing it into structured summaries. Craft detailed text prompts that are ready for analysis by the LLM.
+- **Anomaly Detection**: Analyze the preprocessed data using the LLM to identify deviations from standard operational patterns. Utilize specific prompts that guide the LLM's focus during analysis.
+- **Threat Assessment**: Use the LLM to assess the severity of detected anomalies, evaluating their potential impact on network security and operational stability. Generate prompts that ask the LLM to evaluate threat severity.
+- **Solution Generation**: Generate actionable mitigation strategies tailored to address specific security risks based on the severity of the threats identified. Employ prompts that instruct the LLM to propose particular solutions.
+- **Output-Actionable Advice**: Communicate the LLM's recommendations to the Zabbix Server to trigger automated scripts or alert administrators for further action. Use prompts to transform LLM outputs into direct, executable actions or clear advisory notifications.
+
+
 ## Architecture
 
 Below is the high-level architecture of the system:
-
 
 ![Architecture Diagram](./diagram.webp)
 
