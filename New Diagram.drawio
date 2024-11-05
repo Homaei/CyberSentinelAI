@@ -921,9 +921,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XHOcHZkM5kLgZs106KMA-346" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Feature Extraction&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;LLM Analysis (Anomaly Detection)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Threat Assessment (Evaluate Severity)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Solution Generation (Generate Fixes &amp;amp; Recommendations)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Output (Actionable Advice)&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3520" y="517.96" width="491.95" height="130.07" as="geometry" />
-        </mxCell>
         <mxCell id="XHOcHZkM5kLgZs106KMA-347" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=1;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="XHOcHZkM5kLgZs106KMA-303" target="XHOcHZkM5kLgZs106KMA-349" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2640" y="773" as="sourcePoint" />
