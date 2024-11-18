@@ -101,7 +101,7 @@ Below is the high-level architecture of the system:
              +-------------------------------------+
 ```
 
-
+```plaintext
 Internet
   ├── Firewall 1
   │     ├── Zabbix/Wazuh Proxy 1
@@ -150,7 +150,7 @@ Internet
         └── Output/Actionable Advice (LLM/AI Solution)
               ├── Feeds recommendations to Zabbix for actions
               └── Displays alerts and advisory notifications
-
+```
 ## Contributors
 
 - [Hubert Homaei](https://github.com/homaei), [Oscar Mogollon](https://github.com/omogollo2), [Aagustin di Bartolo](https://github.com/Jacklamotta).
