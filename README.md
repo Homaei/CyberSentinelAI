@@ -100,6 +100,57 @@ Below is the high-level architecture of the system:
              |Tools: ELK Stack, StackStorm, Rundeck|
              +-------------------------------------+
 ```
+
+
+Internet
+  ├── Firewall 1
+  │     ├── Zabbix/Wazuh Proxy 1
+  │     │     ├── Office 1
+  │     │     │     ├── Switch
+  │     │     │     │     ├── WiFi
+  │     │     │     │     ├── LAN
+  │     │     │     │     └── NAS
+  │     │     └── Data to Zabbix/Wazuh Server
+  │     └── Connected to VPS (Zabbix/Wazuh Server)
+  │
+  ├── Firewall 2
+  │     ├── Zabbix/Wazuh Proxy 2
+  │     │     ├── Office 2
+  │     │     │     ├── Switch
+  │     │     │     │     ├── WiFi
+  │     │     │     │     ├── LAN
+  │     │     │     │     └── NAS
+  │     │     └── Data to Zabbix/Wazuh Server
+  │     └── Connected to VPS (Zabbix/Wazuh Server)
+  │
+  ├── Zabbix/Wazuh Proxy 3
+  │     ├── Raspberry Pi
+  │     │     ├── Water Treatment Plant
+  │     │     │     ├── PLCs
+  │     │     │     └── SCADA
+  │     └── Data to Zabbix/Wazuh Server
+  │
+  └── Zabbix/Wazuh Server
+        ├── Feature Extraction (LLM/AI Solution)
+        │     ├── Extracts data from Zabbix/Wazuh logs
+        │     └── Organizes data into summaries
+        │
+        ├── Anomaly Detection (LLM/AI Solution)
+        │     ├── Uses AI/LLM to detect deviations
+        │     └── Guides analysis with specific prompts
+        │
+        ├── Threat Assessment (LLM/AI Solution)
+        │     ├── Evaluates severity of detected anomalies
+        │     └── Generates severity-based prompts
+        │
+        ├── Solution Generation (LLM/AI Solution)
+        │     ├── Proposes actionable solutions
+        │     └── Tailored strategies based on threats
+        │
+        └── Output/Actionable Advice (LLM/AI Solution)
+              ├── Feeds recommendations to Zabbix for actions
+              └── Displays alerts and advisory notifications
+
 ## Contributors
 
 - [Hubert Homaei](https://github.com/homaei), [Oscar Mogollon](https://github.com/omogollo2), [Aagustin di Bartolo](https://github.com/Jacklamotta).
