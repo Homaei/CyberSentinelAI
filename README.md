@@ -110,8 +110,8 @@ Internet
   │     │     │     │     ├── WiFi
   │     │     │     │     ├── LAN
   │     │     │     │     └── NAS
-  │     │     └── Data to Zabbix/Wazuh Server
-  │     └── Connected to VPS (Zabbix/Wazuh Server)
+  │     │     │     └── Data sent to Zabbix/Wazuh Server
+  │     │     └── Connected to AWS/Azure Cloud (VPS with Zabbix/Wazuh Server)
   │
   ├── Firewall 2
   │     ├── Zabbix/Wazuh Proxy 2
@@ -120,41 +120,41 @@ Internet
   │     │     │     │     ├── WiFi
   │     │     │     │     ├── LAN
   │     │     │     │     └── NAS
-  │     │     └── Data to Zabbix/Wazuh Server
-  │     └── Connected to VPS (Zabbix/Wazuh Server)
+  │     │     │     └── Data sent to Zabbix/Wazuh Server
+  │     │     └── Connected to AWS/Azure Cloud (VPS with Zabbix/Wazuh Server)
   │
   ├── Zabbix/Wazuh Proxy 3
   │     ├── Raspberry Pi
   │     │     ├── Water Treatment Plant
-  │     │     │     ├── PLCs
-  │     │     │     └── SCADA
-  │     └── Data to Zabbix/Wazuh Server
+  │     │     │     ├── PLCs (Programmable Logic Controllers)
+  │     │     │     └── SCADA (Supervisory Control and Data Acquisition)
+  │     │     └── Data sent to Zabbix/Wazuh Server
   │
-  └── Zabbix/Wazuh Server
+  └── Zabbix/Wazuh Server (AWS/Azure Cloud)
         ├── Feature Extraction (LLM/AI Solution)
-        │     ├── Extracts data from Zabbix/Wazuh logs
-        │     ├── Organizes data into summaries
-        │     └── Prepares features for FCM
+        │     ├── Collects and preprocesses data from Zabbix/Wazuh logs
+        │     ├── Organizes data into structured summaries
+        │     └── Prepares data for analysis by the LLM
         │
-        ├── Anomaly Detection (LLM/AI Solution + FCM)
-        │     ├── Uses AI/LLM to detect deviations
-        │     ├── FCM models scenarios of anomalies/attacks
-        │     └── Guides analysis with weighted relationships
+        ├── Anomaly Detection (LLM/AI Solution)
+        │     ├── Uses LLM to analyze preprocessed data
+        │     ├── Identifies deviations from normal operational patterns
+        │     └── Employs specific prompts to guide analysis
         │
-        ├── Threat Assessment (LLM/AI Solution + FCM)
+        ├── Threat Assessment (LLM/AI Solution)
         │     ├── Evaluates severity of detected anomalies
-        │     ├── FCM predicts cascading impacts
-        │     └── Generates severity-based prompts for LLM
+        │     ├── Considers potential impacts on network security and operations
+        │     └── Generates prompts to assess the threat severity
         │
-        ├── Solution Generation (LLM/AI Solution + FCM)
-        │     ├── FCM suggests mitigation strategies
-        │     ├── LLM refines and proposes actionable solutions
-        │     └── Tailored strategies based on FCM/LLM outputs
+        ├── Solution Generation (LLM/AI Solution)
+        │     ├── Proposes actionable solutions based on threat severity
+        │     ├── Recommends strategies tailored to specific security issues
+        │     └── Uses prompts to instruct the LLM to provide mitigation actions
         │
         └── Output/Actionable Advice (LLM/AI Solution)
-              ├── Feeds recommendations to Zabbix for actions
-              ├── Displays alerts and advisory notifications
-              └── FCM validates feedback loops to improve accuracy
+              ├── Communicates recommendations to Zabbix for automated scripts
+              ├── Alerts administrators for further action
+              └── Displays actionable advice and notifications
 
 ```
 ## Contributors
