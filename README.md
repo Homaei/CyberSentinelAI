@@ -133,23 +133,29 @@ Internet
   └── Zabbix/Wazuh Server
         ├── Feature Extraction (LLM/AI Solution)
         │     ├── Extracts data from Zabbix/Wazuh logs
-        │     └── Organizes data into summaries
+        │     ├── Organizes data into summaries
+        │     └── Prepares features for FCM
         │
-        ├── Anomaly Detection (LLM/AI Solution)
+        ├── Anomaly Detection (LLM/AI Solution + FCM)
         │     ├── Uses AI/LLM to detect deviations
-        │     └── Guides analysis with specific prompts
+        │     ├── FCM models scenarios of anomalies/attacks
+        │     └── Guides analysis with weighted relationships
         │
-        ├── Threat Assessment (LLM/AI Solution)
+        ├── Threat Assessment (LLM/AI Solution + FCM)
         │     ├── Evaluates severity of detected anomalies
-        │     └── Generates severity-based prompts
+        │     ├── FCM predicts cascading impacts
+        │     └── Generates severity-based prompts for LLM
         │
-        ├── Solution Generation (LLM/AI Solution)
-        │     ├── Proposes actionable solutions
-        │     └── Tailored strategies based on threats
+        ├── Solution Generation (LLM/AI Solution + FCM)
+        │     ├── FCM suggests mitigation strategies
+        │     ├── LLM refines and proposes actionable solutions
+        │     └── Tailored strategies based on FCM/LLM outputs
         │
         └── Output/Actionable Advice (LLM/AI Solution)
               ├── Feeds recommendations to Zabbix for actions
-              └── Displays alerts and advisory notifications
+              ├── Displays alerts and advisory notifications
+              └── FCM validates feedback loops to improve accuracy
+
 ```
 ## Contributors
 
