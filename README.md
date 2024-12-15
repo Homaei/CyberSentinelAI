@@ -89,7 +89,7 @@ Internet
         │
         └── Output/Actionable Advice (LLM/AI Solution)
               ├── Communicates recommendations to Zabbix for automated scripts
-              ├── Alerts administrators for further action
+              ├── Alert administrators for further action
               └── Displays actionable advice and notifications
 
 ```
