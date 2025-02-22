@@ -25,7 +25,6 @@ The system leverages Zabbix and Wazuh for log collection, Elasticsearch for log 
 - **Solution Generation**: Generate actionable mitigation strategies tailored to address specific security risks based on the severity of the threats identified. Employ prompts that instruct the LLM to propose particular solutions.
 - **Output-Actionable Advice**: Communicate the LLM's recommendations to the Zabbix Server to trigger automated scripts or alert administrators for further action. Use prompts to transform LLM outputs into direct, executable actions or clear advisory notifications.
 
-
 ## Architecture
 
 Below is the high-level architecture of the system:
