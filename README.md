@@ -94,7 +94,7 @@ Internet
 ```
 ## Contributors
 
-- [Hubert Homaei](https://github.com/homaei), [Oscar Mogollon](https://github.com/omogollo2), [Aagustin di Bartolo](https://github.com/Jacklamotta).
+- [Hubert Homaei](https://github.com/homaei), [Aagustin di Bartolo](https://github.com/Jacklamotta) , and [Oscar Mogollon](https://github.com/omogollo2).
   
 ## License
 
