@@ -124,19 +124,19 @@ M. Homaei, A. Di Bartolo, Ó. Mogollón-Gutiérrez, F. Broncano Morgado, and P. 
 Homaei, MohammadHossein, Agustín Di Bartolo, Óscar Mogollón-Gutiérrez, Fernando Broncano Morgado, and Pablo García Rodríguez. 2025. *A Virtual Cybersecurity Department for Securing Digital Twins in Water Distribution Systems*. arXiv. https://doi.org/10.48550/arXiv.2504.20266
 
 
-'''
-@misc{https://doi.org/10.48550/arxiv.2504.20266,
-  doi = {10.48550/ARXIV.2504.20266},
-  url = {https://arxiv.org/abs/2504.20266},
-  author = {Homaei,  Mohammadhossein and Di Bartolo,  Agustin and Mogollon-Gutierrez,  Oscar and Morgado,  Fernando Broncano and Rodriguez,  Pablo Garcia},
-  keywords = {Cryptography and Security (cs.CR),  Machine Learning (cs.LG),  Networking and Internet Architecture (cs.NI),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
-  title = {A Virtual Cybersecurity Department for Securing Digital Twins in Water Distribution Systems},
-  publisher = {arXiv},
-  year = {2025},
-  copyright = {Creative Commons Attribution Share Alike 4.0 International}
-}
-'''
+### 📌 BibTeX
 
+```bibtex
+@misc{homaei2025virtual,
+  author       = {Homaei, Mohammadhossein and Di Bartolo, Agustin and Mogollon-Gutierrez, Oscar and Broncano Morgado, Fernando and Garcia Rodriguez, Pablo},
+  title        = {A Virtual Cybersecurity Department for Securing Digital Twins in Water Distribution Systems},
+  year         = {2025},
+  publisher    = {arXiv},
+  doi          = {10.48550/arXiv.2504.20266},
+  url          = {https://arxiv.org/abs/2504.20266},
+  note         = {arXiv preprint arXiv:2504.20266},
+  keywords     = {Cryptography and Security (cs.CR), Machine Learning (cs.LG), Networking and Internet Architecture (cs.NI)}
+}
 
 
 ## License
