@@ -96,6 +96,49 @@ Internet
 
 - [Hubert Homaei](https://github.com/homaei), [Aagustin di Bartolo](https://github.com/Jacklamotta) , and [Oscar Mogollon](https://github.com/omogollo2).
   
+
+
+## 📚 How to Cite a Part of This Research
+
+If you use this work in your research, please cite it using one of the following formats:
+
+---
+
+### 📌 APA (7th Edition)
+
+**arXiv version**:  
+Homaei, M., Di Bartolo, A., Mogollón-Gutiérrez, Ó., Broncano Morgado, F., & García Rodríguez, P. (2025). *A virtual cybersecurity department for securing digital twins in water distribution systems*. arXiv. https://doi.org/10.48550/arXiv.2504.20266
+
+---
+
+### 📌 IEEE
+
+**arXiv version**:  
+M. Homaei, A. Di Bartolo, Ó. Mogollón-Gutiérrez, F. Broncano Morgado, and P. García Rodríguez, “A virtual cybersecurity department for securing digital twins in water distribution systems,” *arXiv*, 2025. [Online]. Available: https://doi.org/10.48550/arXiv.2504.20266
+
+---
+
+### 📌 Chicago (Author-Date)
+
+**arXiv version**:  
+Homaei, MohammadHossein, Agustín Di Bartolo, Óscar Mogollón-Gutiérrez, Fernando Broncano Morgado, and Pablo García Rodríguez. 2025. *A Virtual Cybersecurity Department for Securing Digital Twins in Water Distribution Systems*. arXiv. https://doi.org/10.48550/arXiv.2504.20266
+
+
+'''
+@misc{https://doi.org/10.48550/arxiv.2504.20266,
+  doi = {10.48550/ARXIV.2504.20266},
+  url = {https://arxiv.org/abs/2504.20266},
+  author = {Homaei,  Mohammadhossein and Di Bartolo,  Agustin and Mogollon-Gutierrez,  Oscar and Morgado,  Fernando Broncano and Rodriguez,  Pablo Garcia},
+  keywords = {Cryptography and Security (cs.CR),  Machine Learning (cs.LG),  Networking and Internet Architecture (cs.NI),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
+  title = {A Virtual Cybersecurity Department for Securing Digital Twins in Water Distribution Systems},
+  publisher = {arXiv},
+  year = {2025},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+}
+'''
+
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
