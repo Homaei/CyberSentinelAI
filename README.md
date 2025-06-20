@@ -137,8 +137,8 @@ Homaei, MohammadHossein, Agustín Di Bartolo, Óscar Mogollón-Gutiérrez, Ferna
   note         = {arXiv preprint arXiv:2504.20266},
   keywords     = {Cryptography and Security (cs.CR), Machine Learning (cs.LG), Networking and Internet Architecture (cs.NI)}
 }
-
-
+```
+---
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
