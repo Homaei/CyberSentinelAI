@@ -54,7 +54,7 @@ Internet
   │     │     │     ├── Switch
   │     │     │     │     ├── WiFi
   │     │     │     │     ├── LAN
-  │     │     │     │     └── NAS
+  │     │     │     │     └── NAS 
   │     │     │     └── Data sent to Zabbix/Wazuh Server
   │     │     └── Connected to AWS/Azure Cloud (VPS with Zabbix/Wazuh Server)
   │
